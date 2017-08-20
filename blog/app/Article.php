@@ -22,10 +22,26 @@ class Article extends Model
 
     protected $dates = ['deleted_at'];
 
+    protected $casts = [
+        'name' => 'text'
+    ];
+
 
     public function user() {
         return $this->belongsTo('App\User');
     }
+
+
+    public function getNameAttribute($value) {
+        return 'Hello '.$value;
+    }
+
+    public function setNameAttribute($value) {
+
+        $this->attributes['name'] = '/'.$value.'/';
+
+    }
+
 
 
 }

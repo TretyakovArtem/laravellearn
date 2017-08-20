@@ -27,14 +27,11 @@ class Core extends Controller
     public function getArticles(Request $request)
     {
 
+    $article = Article::find(3);
 
-        $user = User::find(2);
+    $article->name = 'new new';
 
-        $role_id = Role::find(2)->id;
-
-        //$user->roles()->attach($role_id);
-        $user->roles()->detach($role_id);
-
+    echo $article->name;
 
 
 
