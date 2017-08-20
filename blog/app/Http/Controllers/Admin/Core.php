@@ -26,13 +26,19 @@ class Core extends Controller
 
     public function getArticles(Request $request)
     {
-        $country = Country::find(1);
+
+        $articles = Article::all();
         $user = User::find(2);
 
-        $country->user()->associate($user);
+        foreach ($articles as $article) {
+            $article->user()->associate($user);
+            $article->save();
+        }
 
-        $country->save();
 
+
+
+        return ;
     }
 
 
