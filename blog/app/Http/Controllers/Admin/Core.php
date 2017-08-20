@@ -29,9 +29,14 @@ class Core extends Controller
 
     $article = Article::find(3);
 
-    $article->name = 'new new';
+    $array = ['key'=>'Test 2'];
 
-    echo $article->name;
+    $article->text = $array;
+
+    $article->save();
+
+    //dump($article->toArray());
+        dump($article->toJson());
 
 
 
