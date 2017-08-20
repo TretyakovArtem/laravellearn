@@ -10,7 +10,7 @@ use App\Http\Controllers\Controller;
 use DB;
 use App\Article;
 use App\User;
-
+use App\Role;
 
 class Core extends Controller
 {
@@ -27,13 +27,13 @@ class Core extends Controller
     public function getArticles(Request $request)
     {
 
-        $articles = Article::all();
+
         $user = User::find(2);
 
-        foreach ($articles as $article) {
-            $article->user()->associate($user);
-            $article->save();
-        }
+        $role_id = Role::find(2)->id;
+
+        //$user->roles()->attach($role_id);
+        $user->roles()->detach($role_id);
 
 
 
