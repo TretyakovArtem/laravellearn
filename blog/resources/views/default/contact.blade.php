@@ -4,9 +4,16 @@
 
 @section('content')
     <div class="col-xs-12 col-sm-9">
-        <pre>
-            {{ print_r(Session::all()) }}
-        </pre>
+        @if(count($errors) > 0)
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach($errors->all() as $error)
+                        <li>{{$error}}</li>
+                    @endforeach
+                </ul>
+            </div>
+
+        @endif
 
         <div class="row">
             <div class="col-xs-8 col-lg-8">

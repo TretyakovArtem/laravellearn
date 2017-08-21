@@ -27,7 +27,7 @@ class Core extends Controller
     public function getArticles(Request $request)
     {
 
-    $article = Article::find(3);
+    /*$article = Article::find(3);
 
     $array = ['key'=>'Test 2'];
 
@@ -36,7 +36,7 @@ class Core extends Controller
     $article->save();
 
     //dump($article->toArray());
-        dump($article->toJson());
+        dump($article->toJson());*/
 
 
 

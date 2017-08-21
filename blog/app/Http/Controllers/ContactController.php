@@ -8,22 +8,29 @@ use App\Http\Requests;
 
 use App\Http\Controllers\Controller;
 
+
 class ContactController extends Controller
 {
-    //
+
     public function show(Request $request) {
 
-        if($request->isMethod('post')) {
-            $request->flash();
+            if($request->isMethod('post')) {
+                $rules = [
+                    'name'=>'exists:users',
+                    'email'=>'required|email'
+                ];
+                $this->validate($request, $rules);
+
+
+                dump($request->all());
+
+            }
+
+            $context = ['title'=>'Contacts'];
+
+            return view('default.contact', $context);
+
         }
-
-
-        //print_r($request->method());
-        $input = $request->all();
-        print_r($input);
-        $context = ['title'=>'Contacts'];
-        return view('default.contact', $context);
-    }
 }
 
 
