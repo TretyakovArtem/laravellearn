@@ -58,7 +58,9 @@ Route::get('/article/{id}', ['uses' => 'Admin\Core@getArticle', 'as' => 'article
 
 Route::controller('/pages', 'PagesController', ['getCreate'=>'pages.create']);
 
-Route::match(['get', 'post'], '/contact', ['uses' => 'ContactController@show', 'as'=>'contact']);
+Route::get('/contact', ['uses' => 'ContactController@show', 'as'=>'contact']);
+
+Route::post('/contact', ['uses' => 'ContactController@store']);
 /*
 Route::match(['get', 'post'], '/contact', function() {
     var_dump($_POST);
