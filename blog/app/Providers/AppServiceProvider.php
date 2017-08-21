@@ -20,9 +20,9 @@ class AppServiceProvider extends ServiceProvider
             return "<h1>New Directive - $var</h1>";
         });*/
 
-        DB::listen(function($query){
+       /* DB::listen(function($query){
             dump($query->sql);
-        });
+        });*/
     }
 
     /**
