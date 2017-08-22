@@ -24,6 +24,7 @@
                             </div>
                         </div>--}}
 
+
                         <div class="form-group{{ $errors->has('login') ? ' has-error' : '' }}">
                             <label for="login" class="col-md-4 control-label">Login</label>
 

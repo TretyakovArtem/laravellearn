@@ -67,18 +67,16 @@ Route::match(['get', 'post'], '/contact', function() {
 });*/
 //Route::auth();
 
-Route::get('login', ['uses'=>'Auth\MyAuthController@showLogin']);
-Route::post('login', ['uses'=>'Auth\MyAuthController@authenticate']);
+
+
+Route::get('login', ['uses' => 'Auth\MyAuthController@showLogin']);
+Route::post('login', ['uses' => 'Auth\MyAuthController@authenticate']);
+
 
 /*Route::get('/home', 'HomeController@index');*/
 
 
-
-
-
-Route::group(['prefix'=>'admin', 'middleware'=>['web','auth']], function() {
-
-
+Route::group(['prefix'=>'admin'], function() {
     Route::get('/', ['uses'=>'Admin\AdminController@show', 'as'=>'admin_index']);
     Route::get('/add/post', ['uses'=>'Admin\AdminPostController@create', 'as'=>'admin_add_post']);
 });

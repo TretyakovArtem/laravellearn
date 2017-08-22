@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Auth;
 
+use Auth;
 
 class MyAuthController extends Controller
 {
@@ -23,6 +23,7 @@ class MyAuthController extends Controller
 
         $remember = $request->has('remember');
 
+
         if(Auth::attempt([
             'login'=>$array['login'],
             'password'=>$array['password']
@@ -30,8 +31,6 @@ class MyAuthController extends Controller
         {
             return redirect()->intended('/admin');
         }
-
-
 
 
         return redirect()->back()
