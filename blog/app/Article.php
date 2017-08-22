@@ -15,7 +15,7 @@ class Article extends Model
 
     //public $timestamps = FALSE;
 
-    protected $fillable = ['name', 'text', 'id'];
+    protected $fillable = ['name', 'text', 'id', 'img'];
 
 
     protected $guarded = ['*'];
@@ -24,7 +24,6 @@ class Article extends Model
 
     protected $casts = [
         'name' => 'text',
-        'text' => 'array'
     ];
 
 
@@ -34,12 +33,12 @@ class Article extends Model
 
 
     public function getNameAttribute($value) {
-        return 'Hello '.$value;
+        return $value;
     }
 
     public function setNameAttribute($value) {
 
-        $this->attributes['name'] = '/'.$value.'/';
+        $this->attributes['name'] = $value;
 
     }
 
