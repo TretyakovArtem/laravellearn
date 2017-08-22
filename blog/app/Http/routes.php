@@ -76,7 +76,7 @@ Route::post('login', ['uses' => 'Auth\MyAuthController@authenticate']);
 /*Route::get('/home', 'HomeController@index');*/
 
 
-Route::group(['prefix'=>'admin'], function() {
+Route::group(['prefix'=>'admin', 'middleware'=>['auth.basic']], function() {
     Route::get('/', ['uses'=>'Admin\AdminController@show', 'as'=>'admin_index']);
     Route::get('/add/post', ['uses'=>'Admin\AdminPostController@create', 'as'=>'admin_add_post']);
 });

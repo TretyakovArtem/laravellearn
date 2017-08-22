@@ -27,7 +27,12 @@ class AdminController extends Controller
 
 
         if(!Auth::check()) {
-            return redirect('/login');
+            $user = User::find(2);
+
+            //Auth::guard('web')->login($user);
+            //Auth::guard('web')->logout($user);
+            //return redirect('/login');
+            Auth::loginUsingid(2);
         }
 
 
@@ -36,6 +41,7 @@ class AdminController extends Controller
            echo "Ok";
         }
 
+        dump(Auth::id());
 
         return view('welcome');
     }
