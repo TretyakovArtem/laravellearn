@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/classpreloader/classpreloader" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/jakub-onderka/php-console-color" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/jakub-onderka/php-console-highlighter" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/jeremeamia/SuperClosure" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/laravelcollective/html" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/mtdowling/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/phpunit/phpunit-mock-objects" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/dom-crawler" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/polyfill-php56" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/polyfill-util" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/blog/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP Runtime" type="php">
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard" />
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/composer.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/composer.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/blog/vendor/classpreloader/classpreloader" />
+          <root url="file://$MODULE_DIR$/blog/vendor/composer" />
+          <root url="file://$MODULE_DIR$/blog/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/annotations" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/cache" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/collections" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/common" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/dbal" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/lexer" />
+          <root url="file://$MODULE_DIR$/blog/vendor/fzaninotto/faker" />
+          <root url="file://$MODULE_DIR$/blog/vendor/hamcrest/hamcrest-php" />
+          <root url="file://$MODULE_DIR$/blog/vendor/jakub-onderka/php-console-color" />
+          <root url="file://$MODULE_DIR$/blog/vendor/jakub-onderka/php-console-highlighter" />
+          <root url="file://$MODULE_DIR$/blog/vendor/jeremeamia/SuperClosure" />
+          <root url="file://$MODULE_DIR$/blog/vendor/laravel/framework" />
+          <root url="file://$MODULE_DIR$/blog/vendor/laravelcollective/html" />
+          <root url="file://$MODULE_DIR$/blog/vendor/league/flysystem" />
+          <root url="file://$MODULE_DIR$/blog/vendor/mockery/mockery" />
+          <root url="file://$MODULE_DIR$/blog/vendor/monolog/monolog" />
+          <root url="file://$MODULE_DIR$/blog/vendor/mtdowling/cron-expression" />
+          <root url="file://$MODULE_DIR$/blog/vendor/nesbot/carbon" />
+          <root url="file://$MODULE_DIR$/blog/vendor/nikic/php-parser" />
+          <root url="file://$MODULE_DIR$/blog/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpdocumentor/reflection-common" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpdocumentor/type-resolver" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpspec/prophecy" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpunit/php-code-coverage" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpunit/php-file-iterator" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpunit/php-text-template" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpunit/php-timer" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpunit/php-token-stream" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpunit/phpunit" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://$MODULE_DIR$/blog/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/blog/vendor/psy/psysh" />
+          <root url="file://$MODULE_DIR$/blog/vendor/sebastian/comparator" />
+          <root url="file://$MODULE_DIR$/blog/vendor/sebastian/diff" />
+          <root url="file://$MODULE_DIR$/blog/vendor/sebastian/environment" />
+          <root url="file://$MODULE_DIR$/blog/vendor/sebastian/exporter" />
+          <root url="file://$MODULE_DIR$/blog/vendor/sebastian/global-state" />
+          <root url="file://$MODULE_DIR$/blog/vendor/sebastian/recursion-context" />
+          <root url="file://$MODULE_DIR$/blog/vendor/sebastian/version" />
+          <root url="file://$MODULE_DIR$/blog/vendor/swiftmailer/swiftmailer" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/css-selector" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/debug" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/dom-crawler" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/event-dispatcher" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/finder" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/http-foundation" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/http-kernel" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/polyfill-php56" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/polyfill-util" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/process" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/routing" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/translation" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/var-dumper" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/blog/vendor/vlucas/phpdotenv" />
+          <root url="file://$MODULE_DIR$/blog/vendor/webmozart/assert" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/blog/vendor/classpreloader/classpreloader" />
+          <root url="file://$MODULE_DIR$/blog/vendor/composer" />
+          <root url="file://$MODULE_DIR$/blog/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/annotations" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/cache" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/collections" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/common" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/dbal" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/blog/vendor/doctrine/lexer" />
+          <root url="file://$MODULE_DIR$/blog/vendor/fzaninotto/faker" />
+          <root url="file://$MODULE_DIR$/blog/vendor/hamcrest/hamcrest-php" />
+          <root url="file://$MODULE_DIR$/blog/vendor/jakub-onderka/php-console-color" />
+          <root url="file://$MODULE_DIR$/blog/vendor/jakub-onderka/php-console-highlighter" />
+          <root url="file://$MODULE_DIR$/blog/vendor/jeremeamia/SuperClosure" />
+          <root url="file://$MODULE_DIR$/blog/vendor/laravel/framework" />
+          <root url="file://$MODULE_DIR$/blog/vendor/laravelcollective/html" />
+          <root url="file://$MODULE_DIR$/blog/vendor/league/flysystem" />
+          <root url="file://$MODULE_DIR$/blog/vendor/mockery/mockery" />
+          <root url="file://$MODULE_DIR$/blog/vendor/monolog/monolog" />
+          <root url="file://$MODULE_DIR$/blog/vendor/mtdowling/cron-expression" />
+          <root url="file://$MODULE_DIR$/blog/vendor/nesbot/carbon" />
+          <root url="file://$MODULE_DIR$/blog/vendor/nikic/php-parser" />
+          <root url="file://$MODULE_DIR$/blog/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpdocumentor/reflection-common" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpdocumentor/type-resolver" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpspec/prophecy" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpunit/php-code-coverage" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpunit/php-file-iterator" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpunit/php-text-template" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpunit/php-timer" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpunit/php-token-stream" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpunit/phpunit" />
+          <root url="file://$MODULE_DIR$/blog/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://$MODULE_DIR$/blog/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/blog/vendor/psy/psysh" />
+          <root url="file://$MODULE_DIR$/blog/vendor/sebastian/comparator" />
+          <root url="file://$MODULE_DIR$/blog/vendor/sebastian/diff" />
+          <root url="file://$MODULE_DIR$/blog/vendor/sebastian/environment" />
+          <root url="file://$MODULE_DIR$/blog/vendor/sebastian/exporter" />
+          <root url="file://$MODULE_DIR$/blog/vendor/sebastian/global-state" />
+          <root url="file://$MODULE_DIR$/blog/vendor/sebastian/recursion-context" />
+          <root url="file://$MODULE_DIR$/blog/vendor/sebastian/version" />
+          <root url="file://$MODULE_DIR$/blog/vendor/swiftmailer/swiftmailer" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/css-selector" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/debug" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/dom-crawler" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/event-dispatcher" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/finder" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/http-foundation" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/http-kernel" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/polyfill-php56" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/polyfill-util" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/process" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/routing" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/translation" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/var-dumper" />
+          <root url="file://$MODULE_DIR$/blog/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/blog/vendor/vlucas/phpdotenv" />
+          <root url="file://$MODULE_DIR$/blog/vendor/webmozart/assert" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
