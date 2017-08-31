@@ -5,6 +5,8 @@ namespace App\Providers;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use DB;
+use App\Article;
+use Log;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,6 +25,12 @@ class AppServiceProvider extends ServiceProvider
        /* DB::listen(function($query){
             dump($query->sql);
         });*/
+
+
+
+       Article::created(function (Article $article) {
+           Log::info('Article save in Data', [$article->user->name. '-'.$article->name]);
+       });
     }
 
     /**

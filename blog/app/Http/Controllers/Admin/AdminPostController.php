@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Article;
+use App\Events\onAddArticleEvent;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -11,6 +12,7 @@ use App\Http\Controllers\Controller;
 use App\User;
 use Auth;
 use Gate;
+use Event;
 
 
 class AdminPostController extends Controller
@@ -48,6 +50,9 @@ class AdminPostController extends Controller
             'text' => $data['text']
         ]);
 
+
+       // Event::fire(new onAddArticleEvent($res, $user));
+        Event::fire('onAddArticleEvent', [$res, $user]);
 
         return redirect()->back()->with('message', 'Материал добавлен');
     }
