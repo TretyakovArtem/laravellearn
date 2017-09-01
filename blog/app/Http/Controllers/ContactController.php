@@ -9,6 +9,7 @@ use App\Http\Requests\ContactRequest;
 
 use App\Http\Controllers\Controller;
 
+use Session;
 
 use Validator;
 
@@ -40,7 +41,23 @@ class ContactController extends Controller
         }
 
 
-    public function show() {
+    public function show(Request $request) {
+
+        //$result = $request->session()->get('key', 'default');
+        //$result = $request->session()->all();
+        //$request->session()->put('key.first', 'value');
+        $request->session()->put('key.first', 'value');
+        //$request->session()->push('key.second', 'value 2');
+        Session::push('key.second', 'value 3');
+        session(['key 2'=>'test']);
+        //Session::pull('key');
+        //Session::flash('message','fdsfs');
+        //Session::reflash('message','fdsfs');
+        $result = $request->session()->all();
+
+        dump($result);
+
+
 
         $context = ['title'=>'Contacts'];
 
